@@ -171,7 +171,3 @@ Some reduction strategies may fail to find a normal form.
 **Applicative-order reduction**: choose the left-most, inner-most redex first
 
 Normal-order likes call-by-name: arguments are not evaluated, but directly substituted into function body.
-
-### Evaluation strategies
-
-Normal-order (or applicative-order) reduces under lambda, but Evaluation strategies: **Don’t reduce under lambda**.
