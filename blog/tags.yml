@@ -1,0 +1,14 @@
+uestc:
+  label: UESTC
+  permalink: /uestc
+  description: 成电生活
+
+devops:
+  label: DevOps
+  permalink: /devops
+  description: DevOps相关杂类
+
+docker:
+  label: Docker
+  permalink: /docker
+  description: Docker等容器相关
