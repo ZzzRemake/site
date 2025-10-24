@@ -3,6 +3,7 @@ slug: cnss-summer-2023-sa
 title: CNSS Summer 2023 SA writeup
 date: 2023-09-08 08:55:08
 tags: [uestc, devops]
+enableComments: true
 ---
 
 早知道，还得是SA。

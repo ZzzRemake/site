@@ -3,6 +3,7 @@ slug: cnss-summer-2023-dev
 title: CNSS Summer 2023 Dev writeup
 date: 2023-09-08 08:55:35
 tags: [uestc, devops]
+enableComments: true
 ---
 
 孩子不会dev，随便打着玩的。

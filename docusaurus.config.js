@@ -153,6 +153,21 @@ const config = {
   markdown: {
     mermaid: true,
   },
+
+  customFields: {
+    giscus: {
+      repo: 'zzzremake/site',
+      repoId: 'R_kgDOQBgY8g',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOQBgY8s4Cw_5k',
+      mapping: "pathname",
+      loading: "lazy",
+      strict: "0",
+      reactionEnabled: "1",
+      emitMetadata: "0",
+      inputPosition: "top",
+    }
+  },
 };
 
 export default config;

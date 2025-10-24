@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import GiscusComponent from '@site/src/components/GiscusComment'
 
 import style from './friends.module.css';
 
@@ -64,6 +65,12 @@ const FriendList = [
     "description": "PhD desuwa",
     "link": "https://www.ericzhuestc.site/",
   },
+  {
+    "avatar": "https://kasuha.com/avatar.webp",
+    "name": "霞の葉間",
+    "description": "光と言葉の狭間",
+    "link": "https://kasuha.com",
+  },
 ]
 
 
@@ -99,6 +106,7 @@ export default function Friends() {
   return (
     <Layout title="ZzzRemake's Friends" description="Friends of ZzzRemake">
       <FriendTable></FriendTable>
+      <GiscusComponent />
     </Layout>
   );
 }

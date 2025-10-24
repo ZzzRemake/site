@@ -2,6 +2,7 @@
 slug: translate-overwatch-architecture-netcode
 date: 2025-10-18
 tags: [overwatch, translate]
+enableComments: true
 ---
 
 # [翻译] Overwatch Gameplay Architecture and Netcode

@@ -3,6 +3,7 @@ slug: cnss-recruit-2023-sa
 title: CNSS Recruit 2023 SA writeup
 date: 2023-12-06 10:23:05
 tags: [uestc, devops]
+enableComments: true
 ---
 
 孩子不会SA，随便打着玩的。

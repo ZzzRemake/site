@@ -3,6 +3,7 @@ slug: devops-first
 title: DevOps初探--一次不成功的招新经历
 date: 2022-12-25 15:48:00
 tags: [devops, docker]
+enableComments: true
 ---
 
 “你来星辰有项目经历吗”
