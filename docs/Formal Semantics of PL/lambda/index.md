@@ -174,7 +174,7 @@ graph
 
 ### Reduction strategies
 
-![alt text](normal_applicative_order.png)
+![Normal Applicative Order](normal_applicative_order.png)
 
 **Normal-order reduction**: choose the left-most, outer-most redex first
 (Normal-order reduction will find normal form if exists)
@@ -198,7 +198,7 @@ subtle difference:
 
 仅对closed terms（无free variable）求值，并不总是reduce至normal form，会停在包含canoical form（比如一个abstraction）上。
 
-![alt text](evaluation_example.png)
+![Evaluation example](evaluation_example.png)
 
 If normal-order reduction terminates, the reduction sequence must contain a first canonical form.
 
@@ -228,7 +228,7 @@ $$
 
 example:
 
-![alt text](normal_order_evaluation_example.png)
+![Normal Order Evaluation example](normal_order_evaluation_example.png)
 
 ----
 

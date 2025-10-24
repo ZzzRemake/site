@@ -12,3 +12,13 @@ docker:
   label: Docker
   permalink: /docker
   description: Docker等容器相关
+
+overwatch:
+  label: Overwatch
+  permalink: /overwatch
+  description: 守望要火
+
+translate:
+  label: Translate
+  permalink: /translate
+  description: 翻译文章

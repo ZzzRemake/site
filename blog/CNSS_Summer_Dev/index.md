@@ -462,7 +462,7 @@ int main(){
 ```
 
 测试截图:
-![kknd](./mymalloc.png)
+![Malloc 测试](./mymalloc.png)
 
 #### 为什么 malloc(size_t size) 需要申请的内存长度，但是 free(void* ptr) 不需要已申请的内存长度？
 
@@ -599,7 +599,7 @@ if __name__ == "__main__":
 #### Picture
 
 演示：
-![kknd](./mytraceroute.png)
+![My traceroute](./mytraceroute.png)
 
 看看Linux的
-![linux](./linux_traceroute.png)
+![Linux traceroute](./linux_traceroute.png)
