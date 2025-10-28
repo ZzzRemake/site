@@ -71,6 +71,18 @@ const FriendList = [
     "description": "光と言葉の狭間",
     "link": "https://kasuha.com",
   },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/61999173",
+    "name": "Syrinka",
+    "description": "Just Daydream",
+    "link": "https://blog.hareta.ren/",
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/64351788",
+    "name": "Sake",
+    "description": "FULL-STACK",
+    "link": "https://sakee.cn/",
+  },
 ]
 
 

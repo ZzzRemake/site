@@ -23,13 +23,13 @@ $$
 Body of $\lambda$ extends as far to the right as possible（左结合）:
 
 $$
-\lambda x. M~N=\quad \lambda x.(M~N)
+\lambda x. M~N\quad \mathrm{means}\quad \lambda x.(M~N)
 $$
 
 Function applications are left-associative（左相关）:
 
 $$
-M~N~P = (M~N)~P, \mathrm{not}~M~(N~P)
+M~N~P \quad\mathrm{means}\quad (M~N)~P, \mathrm{not}~M~(N~P)
 $$
 
 ### Higher-order Functions
@@ -68,7 +68,7 @@ However, name of free variable does matter.
 
 $$
 \begin{aligned}
-    fv(x): & \quad \mathrm{the~set~of~free~variables~in} \\
+    fv(M): & \quad \mathrm{the~set~of~free~variables~in~M} \\
     fv(x): & \quad \{x\} \\
     fv(\lambda x.M): &  \quad fv(M) / \{x\} \\
     fv(M~N): &  \quad fv(M)\cup fv(N)
@@ -96,6 +96,8 @@ $$
 Repeatedly apply reduction rule to any sub-term.
 
 ----
+
+substitution:
 
 $$
 \begin{aligned}
@@ -144,7 +146,7 @@ Formalize:
 
 $$
 \begin{aligned}
-    M\rightarrow^* M' & \quad \mathrm{zero-or-more~steps~of}: \\
+    M\rightarrow^* M' & \quad \mathrm{zero-or-more~steps~of}\rightarrow: \\
     M\rightarrow^0 M' & \quad \mathrm{iff}\quad M = M' \\
     M\rightarrow^{k+1} M' &\quad \mathrm{iff}\quad\exists M''. M\rightarrow M'' \And M''\rightarrow^k M'\\
     M\rightarrow^* M' & \quad\mathrm{iff}\quad\exists k.M\rightarrow^k M' \\
