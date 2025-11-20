@@ -106,7 +106,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://www.travellings.cn/typewriter.html',
+            href: 'https://www.travellings.cn/go.html',
             label: 'Travelling',
             position: 'right',
           },
