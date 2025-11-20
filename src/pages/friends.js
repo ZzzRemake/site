@@ -104,6 +104,7 @@ function FriendTable() {
     <div class={style.friendtable}>
       <h1>Friends</h1>
       <p>😘Get up and bro links...</p>
+      <p>🥰若希望交换友链，欢迎在评论区留下头像/ID/博客链接/slogan捏</p>
       <hr></hr>
       <ul className={style.cardlist}>
         {FriendList.sort((a, b) => a.name.localeCompare(b.name)).map((prop, id) => (

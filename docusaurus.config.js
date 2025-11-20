@@ -106,6 +106,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://www.travellings.cn/typewriter.html',
+            label: 'Travelling',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/ZzzRemake',
             label: 'GitHub',
             position: 'right',
@@ -129,7 +134,7 @@ const config = {
             title: 'Exploration',
             items: [
               {
-                label: 'GitHub',
+                label: 'Repo',
                 href: 'https://github.com/ZzzRemake/site',
               },
             ],
