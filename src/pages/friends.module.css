@@ -80,3 +80,12 @@ giscus-widget {
   padding: 32px 32px;
   max-width: 1000px;
 }
+
+.codeblock {
+  grid-column: 1 / -1;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: auto;
+}
+

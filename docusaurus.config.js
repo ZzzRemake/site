@@ -102,17 +102,22 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Note',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://www.travellings.cn/go.html',
-            label: 'Travelling',
+            href: 'mailto:remake114514@outlook.com',
+            label: 'Email',
             position: 'right',
           },
           {
             href: 'https://github.com/ZzzRemake',
-            label: 'GitHub',
+            label: 'Github',
+            position: 'right',
+          },
+          {
+            href: 'https://www.travellings.cn/typewriter.html',
+            label: 'Travelling',
             position: 'right',
           },
         ],
@@ -134,7 +139,7 @@ const config = {
             title: 'Exploration',
             items: [
               {
-                label: 'Repo',
+                label: 'Source Code',
                 href: 'https://github.com/ZzzRemake/site',
               },
             ],
@@ -145,7 +150,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['java', 'nginx', 'bash'],
+        additionalLanguages: ['java', 'nginx', 'bash', 'yaml'],
       },
       colorMode: {
         defaultMode: 'light',

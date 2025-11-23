@@ -1,6 +1,10 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import CodeBlock from '@theme/CodeBlock';
 import GiscusComponent from '@site/src/components/GiscusComment'
+
+import AvatarPngUrl from '@site/static/img/remake.png';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';  
 
 import style from './friends.module.css';
 
@@ -100,17 +104,38 @@ const FriendCard = ({ avatar, name, description, link }) => {
 };
 
 function FriendTable() {
-  return (
+  const siteUrl = useDocusaurusContext().siteConfig.url;
+  return ( 
     <div class={style.friendtable}>
-      <h1>Friends</h1>
-      <p>😘Get up and bro links...</p>
-      <p>🥰若希望交换友链，欢迎在评论区留下头像/ID/博客链接/slogan捏</p>
-      <hr></hr>
-      <ul className={style.cardlist}>
+      <ul class={style.cardlist}>
         {FriendList.sort((a, b) => a.name.localeCompare(b.name)).map((prop, id) => (
           <FriendCard key={id} {...prop}></FriendCard>
         ))}
       </ul>
+      <div class="markdown">
+        <hr></hr>
+        <h1>友链申请</h1>
+        <p>😘Get up and bro links...欢迎交换友链捏</p>
+        <p>基本要求：</p>
+        <ul>
+          <li>站点可正常访问，HTTPS优先；</li>
+          <li>内容健康、无恶意脚本/广告轰炸；</li>
+          <li>慎重对齐友链交换，交换前在站点添加本博客抓手</li>
+          <li>刷够❤好感度❤可解锁后门</li>
+        </ul>
+
+        <p>您可在下方评论区，或通过邮箱发送您的站点信息。</p>
+
+        <hr></hr>
+        <h1>Site Info</h1>
+        <p>🥰站点信息（及友链交换格式），供您参考</p>
+        <ul>
+          <li>名称: ZzzRemake</li>
+          <li>链接: <a href='https://zzzremake.github.io/site/'>https://zzzremake.github.io/site/</a></li>
+          <li>描述: Do Something Different(English)/泉香而酒冽，玉碗盛来琥珀光，直饮到梅梢月上，醉扶归，却为宜会亲友 (中文)</li>
+          <li>头像: <a href={siteUrl + AvatarPngUrl}>{siteUrl + AvatarPngUrl}</a></li>
+        </ul>
+      </div>
     </div>
   )
 }
