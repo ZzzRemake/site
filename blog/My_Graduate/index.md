@@ -70,6 +70,8 @@ enableComments: true
 
 ![彩蛋](egg.jpg)
 
+![双黄蛋](egg2.jpg)
+
 ----
 
 写完总结后问同学有什么可以改的：
