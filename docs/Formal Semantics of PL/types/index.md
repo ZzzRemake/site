@@ -26,13 +26,13 @@ $$
 
 ----
 
-Typing Judgment(给term赋types)
+Typing Judgment(给term赋types):
 
 $$
 \vdash M : \tau
 $$
 
-Typing Rules
+Typing Rules:
 
 $$
 \frac{}{\vdash (\lambda x . M) : \mathrm{fun}}
@@ -57,9 +57,9 @@ $$
 \end{aligned}
 $$
 
-其中Types满足右结合。
+其中Types满足右结合：$\tau\rightarrow\tau\rightarrow\tau = \tau\rightarrow(\tau\rightarrow\tau)$
 
-相应的Reduction Rule也要修改为新的Term形式（即对lambda 的参数加上Type）。
+相应的Reduction Rule也要修改为新的Term形式（即对lambda 的参数加上Type）：$\lambda x : \tau . M$
 
 ## Typing Judgement and Context
 
@@ -97,9 +97,9 @@ $$
 
 ### Soundness and Completeness
 
-Soundness表示type system 不会接受可出错的program（即type-safe），满足no false negatives。
+Soundness表示type system 不会接受出错的program（即type-safe），满足no false negatives。
 
-Completeness表示一个program不会拒绝不可能出错的program，满足no false position。
+Completeness表示一个program不会拒绝不可能出错的program，满足no false positives。
 
 对图灵完备的语言来说，Type system是做不到同时满足两者的。因此，实践中我们选择满足soundness，并尽可能地减少false positives。
 
